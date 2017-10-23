@@ -1,0 +1,970 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:900|Roboto:400,100);
+/* Body */
+body {
+	font-family: source-sans-pro;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+/* Container */
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #FFFFFF;
+}
+/* Navigation */
+header {
+	width: 100%;
+	height: 5%;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+.logo {
+	width: 145px;
+	float: left;
+	margin-top: -10px;
+	margin-left: 25px;
+}
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 25px;
+}
+header nav ul {
+	list-style: none;
+	float: right;
+}
+nav ul li {
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ul li a {
+	color: #FF0004;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #58595B;
+}
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+}
+/* Hero Section */
+.hero {
+	background-color: #000000;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.light {
+	font-weight: bold;
+	color: #EE3F23;
+}
+.tagline {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 4px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.video {
+	padding-top: 15px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #FFFFFF;
+}
+
+/* About Section */
+.text_column {
+	width: 29%;
+	text-align: justify;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #A3A3A3;
+}
+.about {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 35px;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+}
+/* Stats Gallery */
+.stats {
+	color: #717070;
+	margin-bottom: 5px;
+}
+.gallery {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: #FFFFFF;
+	/* [disabled]min-width: 400px;
+*/
+	padding-bottom: 35px;
+	padding-top: 0px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+.thumbnail {
+	width: 25%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
+}
+.gallery .thumbnail h4 {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	color: #52BAD5;
+}
+.gallery .thumbnail p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #A3A3A3;
+}
+/* Parallax Section */
+.banner {
+	background-color: #2D9AB7;
+	background-image: url(file:///C|/Users/Carson/Google%20Drive/Full%20Sail/Masters/Courses/Month%206/Week%203/images/parallax.png);
+	height: 400px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallax {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_description {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	width: 30%;
+	float: right;
+	font-weight: lighter;
+	line-height: 23px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+/* More info */
+footer {
+	width: 100%;
+	background-color: #FFFFFF;
+	padding-bottom: 35px;
+}
+.footer_column {
+	width: 45%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 0px;
+	float: none;
+}
+footer .footer_column h3 {
+	color: #B3B3B3;
+	text-align: center;
+}
+footer .footer_column p {
+	color: #717070;
+	background-color: #FFFFFF;
+}
+.cards {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 200px;
+}
+a .twitter-timeline {
+	display: inline-block;
+	
+}
+footer .footer_column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #FEFEFE;
+	color: #C4C4C4;
+	cursor: pointer;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+.footer_banner {
+	background-color: #B3B3B3;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+	margin-bottom: 0px;
+	background-image: url(file:///C|/Users/Carson/Google%20Drive/Full%20Sail/Masters/Courses/Month%206/Week%203/images/pattern.png);
+	background-repeat: repeat;
+}
+footer {
+	display: inline-block;
+}
+.hidden {
+	display: none;
+}
+#myQuiz {
+   font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400;
+	width: 650px; height: 650px;
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+	color: #fff;
+	background: #000 url(images/background.jpg) no-repeat 0px 0px;	
+}
+#myQuiz h1 {
+	font-weight: 100; 
+	font-size: 2em; 
+	text-transform: uppercase; 
+	margin: 0px;
+	position: absolute; 
+	top: 25px; left: 36px;
+}
+#myQuiz h1 span {
+	display: block; 
+	font-weight: 900; 
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 3px;
+	line-height: 40px;
+}
+#myQuiz h2 {
+	font-size:3em; 
+	margin:0px; 
+	font-weight:100;
+}
+#myQuiz h3 {
+	font-size:2.4em; 
+	margin:0px; 
+	font-weight:100;
+}
+#myQuiz p {
+	margin: 0px 0px 14px 0px;
+}
+#myQuiz .btn {
+	display: inline-block; 
+	cursor: pointer; 
+	background-color: #EE3F23; 
+	color: #fff; 
+	text-decoration: none; 
+	padding: 5px 15px; 
+	border-radius: 6px;
+}
+
+/* Progress Bar */
+#myQuiz .progress {
+  width: 550px;
+  position: absolute;
+  top: 120px;
+  left: 40px;
+}
+
+#myQuiz .progress div{
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,.2);
+  transition: background-color 1s;
+}
+
+#myQuiz .progress div::after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: -60px;
+  left: -15px;
+  width: 65px;
+  height: 40px;
+  background: url(images/ans_correct.svg) no-repeat 10px 0px;
+  transition: opacity 1s top 1s;
+  opacity: 0;
+}
+
+#myQuiz .progress div.on,
+#myQuiz .progress div.answered {background-color: #EE3F23;
+}
+
+#myQuiz .progress div.correct::after {
+  top: -5px;
+  opacity: 1;
+}
+
+/* Intro */
+#myQuiz .intro {
+	position: absolute; 
+	top: 200px; 
+	left: 660px; 
+	width: 550px;
+}
+#myQuiz .intro p {
+	margin: 0px 0px 40px 0px;
+}
+
+/* Question */
+#myQuiz .question {
+	width: 550px;
+	position: absolute; 
+	top: 180px; 
+	left: 660px;
+}
+
+#myQuiz .question .txt {
+	font-size: 1.3em; 
+	margin: 0px 0px 20px 0px;
+}
+
+#myQuiz .question .ans {
+  display: inline-block;
+  font-size: 1.1em;
+  width: 225px;
+  border: 2px solid rgba(238,63,35,.4);
+  border-radius: 6px;
+  padding: 10px;
+  margin: 0px 15px 15px 0px;
+  position: relative;
+}
+#myQuiz .question .ans.selected {
+  border-color: #be4b16;
+}
+
+#myQuiz .question .ans.correct {
+ border-color: #459a2e;
+}
+
+#myQuiz .question .ans:after {
+ content: '';
+ display: block;
+ width: 20px;
+ height: 20px;
+ background: no-repeat 0px 0px;
+ background-size: 20px 20px;
+ position: absolute;
+ top: 5px;
+ right: 5px;
+}
+
+#myQuiz .question .ans.selected:after {
+  background-image: url(file:///C|/Users/Carson/Google%20Drive/Full%20Sail/Masters/Courses/Month%206/Week%203/css/images_quiz/icon_incorrect.svg);
+}
+
+#myQuiz .question .ans.correct:after {
+  background-image: url(file:///C|/Users/Carson/Google%20Drive/Full%20Sail/Masters/Courses/Month%206/Week%203/css/images_quiz/icon_correct.svg);
+}
+
+#myQuiz .question.unanswered .ans {
+  cursor: pointer;
+}
+
+#myQuiz .question.unanswered .ans:hover {
+  background-color: rgba(238,189,102,.2);
+}
+
+#myQuiz .question.answered .ans {
+  cursor: default;
+}
+
+#myQuiz .question .ans.image {
+  min-height: 70px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-position: 0px -15px;
+}
+
+/* Feedback*/
+#myQuiz .feedback {
+  color: #EE3F23;
+  margin-top: 10px;
+  transition: opacity 1.5s, margin-top 1.5s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#myQuiz .feedback .btn{
+  margin-top: 5px;
+}
+
+#myQuiz .feedback strong{
+  color: #fff;
+  letter-spacing: .5px;
+}
+
+#myQuiz .answered .feedback{
+  visibility: visible;
+  opacity: 1;
+  margin-top: 10px;
+}
+
+/* Results */
+#myQuiz .results {
+  position: relative;
+  top: 225px;
+  left: 660px;
+  width: 550px;
+}
+
+#myQuiz .results .share {
+  margin-top: 40px;
+}
+
+#myQuiz .results .share a.btn{
+  margin-right: 20px;
+  padding: 9px 15px 8px 42px;
+  background-repeat: no-repeat;
+  background-position: 10px 5px;
+  background-size: 25px 25px;
+}
+
+#myQuiz .results .share a.btn.email{
+  background-color: #f0a121;
+  background-image: url(images/icon_email.svg);
+}
+
+#myQuiz .results .share a.btn.twitter{
+  background-color: #59adeb;
+  background-image: url(images/icon_twitter.svg);
+}
+
+
+#myQuiz .active,
+#myQuiz .inactive {
+  transition: left 1.5s ease-in-out;
+}
+
+#myQuiz .active {
+  left: 40px;
+}
+
+#myQuiz .intro.inactive,
+#myQuiz .inactive.answered {
+  left: -1350px;
+}
+/* Mobile */
+@media (max-width: 320px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	display: none;
+}
+header nav ul {
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+}
+.text_column {
+	width: 100%;
+	text-align: justify;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+.parallax {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	font-size: 18px;
+}
+.parallax_description {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 90%;
+	margin-top: 25px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 12px;
+	float: none;
+	text-align: center;
+}
+.banner {
+	background-color: #2D9AB7;
+	background-image: none;
+}
+.tagline {
+	margin-top: 20px;
+	line-height: 22px;
+}
+.hero_header {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+}
+}
+
+/* Small Tablets */
+@media (min-width: 321px)and (max-width: 767px) {
+.logo {
+	width: 100%;
+	display: block;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #043745;
+}
+p.headlogo {
+		width: 50%;
+		margin: 0 auto;
+	}
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	overflow: auto;
+	display: inline-block;
+	background: #58595b;
+}
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #FFFFFF;
+}
+.hero {
+	background-color: #000000;
+	margin-top: 210px;
+	padding-top: 100px;
+	padding-bottom: 70px;
+	}
+header nav ul {
+	padding: 0px;
+	float: none;
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.video {
+	width: 90%;
+	padding-top: 15px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #FFFFFF;
+}
+.about {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 35px;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+}
+.text_column {
+	width: 100%;
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+.parallax {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	font-size: 18px;
+}
+.parallax_description {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 30%;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+.thumbnail {
+	width: 50%;
+}
+.parallax {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 20%;
+}
+.parallax_description {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	padding-top: 30px;
+}
+.banner {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.footer_column {
+	width: 100%;
+}
+#myQuiz {
+    width: 100%;
+    background-size: 550px;
+  }
+
+  #myQuiz h1 {
+    width: 80%;
+    font-size: 1.5em;
+    top: 15px;
+    left: 15px;
+  }
+
+  #mQuiz h1 span {
+    line-height: 43px;
+  }
+
+  #myQuiz h2 {
+    margin: 0px;
+  }
+
+  #myQuiz h3 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+  }
+
+  #myQuiz .progress {
+    width: 390px;
+    top: 100px;
+    left: 15px;
+  }
+
+  #myQuiz .progress div{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+  }
+
+  #myQuiz .progress div::after {
+    top: -30px;
+    width: 53px;
+    height: 33px;
+	background: url(images/ans_correct.svg) no-repeat 11px 1px;
+  }
+
+  #myQuiz .intro {
+    width: 390px;
+    top: 140px;
+    left: 330px;
+  }
+
+  #myQuiz .question {
+    width: 396px;
+    top: 150px;
+    left: 420px;
+  }
+
+  #myQuiz .question .txt {
+    font-size: 1.1em;
+	width: 346px;
+    margin-bottom: 15px;
+  }
+
+  #myQuiz .question .ans {
+    font-size: 1em;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+
+  #myQuiz .question .ans.image {
+	min-height: 65px;
+	max-width: 95px;
+	background-size: auto;
+  }
+  #myQuiz .feedback {
+	width: 346px;
+	}
+
+  #myQuiz .question .ans.image:hover {
+    background-color: #000;
+  }
+
+  #myQuiz .results {
+    width: 260px;
+    top: 165px;
+    left: 420px;
+  }
+
+  #myQuiz .results .share {
+    margin-top: 20px;
+  }
+
+  #myQuiz .results a.btn {
+    margin-bottom: 20px;
+  }
+
+  #myQuiz .active {
+	left: 15px;
+  }
+
+  #myQuiz .intro.inactive,
+  #myQuiz .inactive.answered {
+    left: -650px;
+  }
+}
+
+/* Small Desktops */
+@media (min-width: 768px) and (max-width: 1920px) {
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 50%;
+}
+.text_column {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.banner {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+
+@media screen and (max-width: 650px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #myQuiz {
+    width: 411px;
+    background-size: 411px auto;
+  }
+
+  #myQuiz h1 {
+    width: 300px;
+    font-size: 1.3em;
+    top: 25px;
+    left: 25px;
+  }
+
+  #mQuiz h1 span {
+    line-height: 43px;
+  }
+
+  #myQuiz h2 {
+    margin: 0px;
+  }
+
+  #myQuiz h3 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+  }
+
+  #myQuiz .progress {
+    width: 300px;
+    top: 130px;
+    left: 25px;
+  }
+
+  #myQuiz .progress div{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+  }
+
+  #myQuiz .progress div::after {
+    top: -30px;
+    width: 53px;
+    height: 33px;
+  }
+
+  #myQuiz .intro {
+    width: 300px;
+    top: 165px;
+    left: 330px;
+  }
+
+  #myQuiz .question {
+    width: 300px;
+    top: 165px;
+    left: 420px;
+  }
+
+  #myQuiz .question .txt {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+  }
+
+  #myQuiz .question .ans {
+    font-size: 1em;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+
+  #myQuiz .question .ans.image {
+    min-height: 45px;
+    background-size: auto 45px;   
+  }
+
+  #myQuiz .question .ans.image:hover {
+    background-color: #000;
+  }
+
+  #myQuiz .results {
+    width: 260px;
+    top: 165px;
+    left: 420px;
+  }
+
+  #myQuiz .results .share {
+    margin-top: 20px;
+  }
+
+  #myQuiz .results a.btn {
+    margin-bottom: 20px;
+  }
+
+  #myQuiz .active {
+    left: 25px;
+  }
+
+  #myQuiz .intro.inactive,
+  #myQuiz .inactive.answered {
+    left: -650px;
+  }
+}
+}
+.img {
+}

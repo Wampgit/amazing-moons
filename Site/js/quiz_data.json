@@ -1,0 +1,58 @@
+[
+  {
+    "question" : "Which NASA spacecraft discovered Enceladus puffing plumes of water vapor, icy particles, and organic compounds?",
+    "answers" : [
+      {"id" : 0, "text" : "Cassini"},
+      {"id" : 1, "text" : "Galileo"},
+      {"id" : 2, "text" : "Callisto"}, 
+      {"id" : 3, "text" : "Hubble"}
+    ],
+    "correct": 0,
+	"feedback" : "Cassini has provided scientists with incredible data and has even flown directly through the plumes of icy water vapor a few times, sniffing out their composition."
+  },
+  {
+    "question" : "Which image best shows Europa?",
+    "answers"  : [
+      {"id"  : 0, "image" : "images/close_up_1.jpg"},
+      {"id"  : 1, "image" : "images/close_up_2.jpg"},
+      {"id"  : 2, "image" : "images/close_up_3.jpg"},
+      {"id"  : 3, "image" : "images/close_up_4.jpg"},
+	  {"id"  : 4, "image" : "images/close_up_5.jpg"}
+    ],
+    "correct"  : 1,
+	"feedback" : "Scientists have observed apparent icebergs on the surface of Europe, and may also erupt plumes of icy water like Saturn’s Enceladus."
+  },
+  {
+    "question" : "Io gets its fiery warmth from tidal heating, a(n) ____________ of the moon’s interior.",
+    "answers"  : [
+      {"id"  : 0, "text" : "Gradual thermal expansion"},
+      {"id"  : 1, "text" : "Back and forth stretching"},
+      {"id"  : 2, "text" : "Expanding and shrinking"},
+      {"id"  : 3, "text" : "Hardening and softening"}
+    ],
+    "correct"  : 1,
+	"feedback" : "Due to the intense gravity of Jupiter, Io’s interior stretches more than any other moon causing its intense heat and volcanism."
+  },
+  {
+    "question" : "Titan’s frigid surface is mosaicked with lakes of liquid ______________.",
+    "answers"  : [
+      {"id"  : 0, "text" : "Methane and ethane"},
+      {"id"  : 1, "text" : "Water and hydrogen"},
+      {"id"  : 2, "text" : "Hydrogen and nitrogen"},
+      {"id"  : 3, "text" : "Helium and hydrogen"},
+      {"id"  : 4, "text" : "Methane and hydrogen"},
+	  {"id"  : 5, "text" : "Methane and nitrogen"}
+    ],
+    "correct"  : 0,
+    "feedback" : "Not only is Titan’s surface mosaicked with lakes of liquid methane and ethane its atmosphere is also largely methane. Other than Earth, it’s the only other body in our solar system with substantial liquid on its surface."
+  },
+  {
+    "question" : "Europa has twice as much liquid water as Earth.",
+    "answers"  : [
+      {"id"  : 0, "text" : "True"},
+      {"id"  : 1, "text" : "False"}
+    ],
+    "correct"  : 0,
+	"feedback" : "Not only does Europa have twice as much water under its icy crust than Earth does, it may also be accessible. This paints a target on Europa for further exploration."
+  }
+]
